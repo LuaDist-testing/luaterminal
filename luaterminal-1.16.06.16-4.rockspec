@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "luaterminal"
-version = "1.16.06.16-3"
+version = "1.16.06.16-4"
 -- LuaDist source
 source = {
-  tag = "1.16.06.16-3",
+  tag = "1.16.06.16-4",
   url = "git://github.com/LuaDist-testing/luaterminal.git"
 }
 -- Original source
@@ -27,6 +27,6 @@ dependencies = {
 build = {
 	type = "builtin",
 	modules = {
-		luaterminal = "src/LuaTerminal.lua"
+		LuaTerminal = "src/LuaTerminal.lua"
 	}
 }
